@@ -4,3 +4,15 @@ main: com.syceus.anarchydupes.SyceusAnarchyDupes
 api-version: '26.2'
 description: Item frame dupe for anarchy servers, inspired by the 6b6t dupe event.
 authors: [Syceus]
+
+commands:
+  anarchydupes:
+    description: SyceusAnarchy-Dupes admin command.
+    usage: /<command> reload
+    aliases: [adupes, syceusdupes]
+    permission: syceusanarchydupes.reload
+
+permissions:
+  syceusanarchydupes.reload:
+    description: Allows reloading the SyceusAnarchy-Dupes config.
+    default: op

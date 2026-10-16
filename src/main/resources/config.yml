@@ -10,3 +10,6 @@ dupe-master-switch: true
 # Chance (0-100) that taking the item out of the frame drops 2 items instead of 1.
 # 0 = never, 100 = always. Values outside 0-100 are clamped.
 dupe-percentage: 25
+
+# Apply changes without restarting the server with: /anarchydupes reload
+# (aliases: /adupes, /syceusdupes; permission: syceusanarchydupes.reload, default op)
