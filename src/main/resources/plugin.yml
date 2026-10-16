@@ -1,0 +1,6 @@
+name: SyceusAnarchy-Dupes
+version: '${project.version}'
+main: com.syceus.anarchydupes.SyceusAnarchyDupes
+api-version: '26.2'
+description: Item frame dupe for anarchy servers, inspired by the 6b6t dupe event.
+authors: [Syceus]

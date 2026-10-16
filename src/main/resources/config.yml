@@ -1,0 +1,12 @@
+# SyceusAnarchy-Dupes configuration
+#
+# How it works: put an item in an item frame, rotate it at least 3 times,
+# then take it out. There is a chance (dupe-percentage) that 2 items drop
+# instead of 1.
+
+# Master switch. Set to false to completely disable the dupe.
+dupe-master-switch: true
+
+# Chance (0-100) that taking the item out of the frame drops 2 items instead of 1.
+# 0 = never, 100 = always. Values outside 0-100 are clamped.
+dupe-percentage: 25
